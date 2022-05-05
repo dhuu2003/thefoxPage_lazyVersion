@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0;} 
+.top{
+	height:50px;
+	background-color: #21C2F8;
+	border-top:5px solid #0787D4;
+}
+.icon a{
+	color:white;
+	padding: 15px;
+
+}
+.icon{
+	margin-top:6px;
+}
+.hphai a{
+	padding-left: 20px;
+	margin: 3px;
+	color: #FFFFFE;
+}
+
+.hphai a.trang{
+	
+	color: black;
+}
+/*het header*/
+
+ .thanhmenu li.nav-item a.nav-link{
+	padding: 40px 20px 40px 20px;
+	
+	font-size: 21px;
+}
+
+.thanhmenu li.nav-item.iconmenu  .nav-link{
+	color: #a1b1bc;
+	font-size: 29px;
+	padding: 32px 11px;
+}
+/*Het Css cho menu*/
+#slide01  h5{
+	font-size:32px;
+	color: black;
+
+}
+ #slide01  .carousel-caption{
+	bottom: 53%;
+	text-align: left;
+}
+#slide01 h3{
+	font-size: 55px;
+	color: black;
+	}
+	#slide01  i{
+		font-size:27px;
+		padding-right: 10px;
+		
+	}
+	#slide01 .nutslide .left.carousel-control{
+		height: 54px;
+		width: 54px;
+        border:  2px solid white;
+        top:50%;
+        margin-top: -27px;
+        left: 10%;
+           }     
+	#slide01 .nutslide .right.carousel-control{
+		height:54px;
+		width: 54px;
+        border:  2px solid white;
+        top: 50%;
+        margin-top: -27px;
+        right: 10%;
+        
+
+	}
+.nutslide .carousel-control{
+	background: none;
+}
+/*Het slide*/
+.card-header {
+	background-color:white;
+	height:60px
+}
+.card-header button.btn-link{
+	padding-top: 0px;
+	font-size:18px;
+	color:black;
+	font-family:lato-l;
+}
+.bphai img.webservice{
+	height:100px;
+	border:2px solid gray;
+	border-radius: 3px;
+}
+@font-face{
+	src:urn(fonts/Lato-Bold.ttf);
+	font-family: lato-b;
+}
+@font-face{
+	src:url(fonts/Lato-Regular.ttf);
+	font-family: lato-r;
+}
+@font-face{
+	src: url(fonts/Lato-Light.ttf);
+	font-family:lato-l;
+}
+@media(max-width:576px){
+
+	
+	.top{
+		height: 100px;
+	}
+
+}.hphai{
+	text-align: center;
+}
+}
+.hphai {
+	padding-top:8px;
+
+}
+
+
+	
